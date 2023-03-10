@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-gray-900 text-gray-100;
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
